@@ -1,25 +1,25 @@
 # Entrega: Estilizar um Currículo
 
-## Estilizar um Currículo: Guru
+## Estilizar um Currículo: Guru - OK
 
 Para esta atividade, você precisará atualizar as regras em `style.css` para conseguir um currículo que se pareça com o do arquivo `mock_up.pdf`.
 
 A única coisa que nós fizemos por você neste nível foi o alinhamento. Você terá que descobrir todo o resto por conta própria!
 
-## Fontes
+## Fontes OK
 Para as tags body e html, você pode utilizar as seguintes fontes: `'Lato'`, `'Helvetica'` e `'Arial'`, juntamente com o `sans-serif` por padrão. Exemplo: `<nome-fonte>, **sans-serif**`
 
 Para os títulos você pode utilizar qualquer uma dessas fontes `'Rokkitt'`, `'Helvetica'`, `'Arial'`, e `sans-serif`.
 
-## Cores
+## Cores OK
 As seguintes cores serão usadas pelo documento para texto e fundos:
-- `#444444` (slate grey, títulos e sub-títulos)
-- `#181818` (jet black, contatos e descrições)
-- `#cf8a05` (yellow, tópicos e divisória)
-- `#f3f3f3` (off white, cor de fundo)
-- `#dedede` (light grey, divisória entre os tópicos)
+- `#444444` (slate grey, títulos e sub-títulos) OK
+- `#181818` (jet black, contatos e descrições) OK
+- `#cf8a05` (yellow, tópicos e divisória) OK
+- `#f3f3f3` (off white, cor de fundo) ok
+- `#dedede` (light grey, divisória entre os tópicos) OK
 
-## Bordas
+## Bordas OK
 - a borda que separa o cabeçalho do resto do currículo tem 2px de espessura
 - bordas entre cada seção tem 1px de espessura
 

@@ -1,27 +1,150 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, ul, li, img, article, details, figcaption, figure, header, section {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	font: inherit;
+	font-size: 100%;
+}
+
+html, body {
+	font-family:'Lato', 'Helvetica', 'Arial', sans-serif;
+	background-color: #f3f3f3;
+	font-size: 16px;
+}
+
 .clear {
 	clear: both;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+}
+
+#name h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	margin-bottom: -6px;
+}
+
+#name h2 {
+	font-size: 2em;
+	margin-left: 2px;
+}
+
+#name {
+	float: left;
+	font-family:'Rokkitt', 'Helvetica', 'Arial', sans-serif;
+	color: #181818;
+}
+
+#mainArea {
+	padding: 0 40px;
 }
 
 #headshot {
 	width: 12.5%;
 	float: left;
-	margin-right: 30px;
+	margin-right: 25px;
 }
 
-#name {
-	float: left;
+#headshot img {
+	width: 100%;
+	height: auto;
+	border-radius: 50px;
 }
 
 #contactDetails {
 	float: right;
 }
 
+#contactDetails ul {
+	list-style-type: none;
+	font-size: 0.9em;
+	margin-top: 2px;
+}
+
+#contactDetails ul li {
+	margin-bottom: 3px;
+}
+
+#contactDetails ul li a, a[href^=tel] {
+	text-decoration: none;
+	color: #181818;
+}
+
+#contactDetails ul li a:hover {
+}
+
+#cv {
+	max-width: 800px;
+	width: 90%;
+	margin: 30px auto;
+}
+
+.mainDetails {
+	border-bottom: 2px;
+	border-style: solid;
+	border-color: #cf8a05;
+	padding: 25px 35px;
+}
+
+section {
+	padding: 20px 0 0;
+	border-bottom: 1px;
+	border-color: #dedede;
+	border-style: solid;
+}
+
+section:first-child {
+	border-top: 0;
+}
+
+section:last-child {
+	padding: 20px 0 10px;
+	border-style: none;
+}
+
 .sectionTitle {
-	float: left;
+	font-family:'Rokkitt', 'Helvetica', 'Arial', sans-serif;
+	color: #444444;
 	width: 25%;
+	float: left;
 }
 
 .sectionContent {
-	float: right;
+	color: #444444;
 	width: 72.5%;
+	float: right;
+}
+
+.sectionTitle h1 {
+	font-style: italic;
+	font-size: 1.5em;
+	color: #cf8a05;
+}
+
+.sectionContent h2{
+	color: #181818;
+	font-size: 1.5em;
+	margin-bottom: -2px;
+}
+
+.subDetails {
+	font-style: italic;
+	font-size: 0.8em;
+	margin-bottom: 3px;
+}
+
+.keySkills {
+	list-style-type: none;
+	font-size: 1em;
+	margin-bottom: 20px;
+	column-count: 3;
+}
+
+.keySkills ul li {
+	margin-bottom: 3px;
 }
